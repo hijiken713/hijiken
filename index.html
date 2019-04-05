@@ -22,7 +22,7 @@
   <img src=" img/taro.png" width="140" height="140" alt="健太のアイコン" class="icon">
   <h1>肘井健太</h1>
   <p>グレーシー柔術の見習いです。</p>  <!-- Paragraph-->
-<div class='works''>
+<div class='works'>
 
 
   <section>
@@ -76,6 +76,40 @@
     </ul>
   <p>(c) Kenta Hijii</p>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+// $(Document).ready(function){
+$(function(){
+//$("#sub").css('color','blue').hide('slow').show('slow');  //p=selector  color red=method
+//> 直下の要素
+//
+//, 複数の要素
+// + 隣接する要素
+//$("p, .item").css('color','blue').hide('slow').show('slow');
+//$(".item + .item").css('color','blue').hide('slow').show('slow');
+//$("#sub > li:eq(2)").css('color','blue').hide('slow').show('slow');
+//$("#sub > li:gt(1)").css('color','blue').hide('slow').show('slow');
+//$("#sub > li:even").css('color','blue').hide('slow').show('slow');
+//$("#sub > li:contains('5')").css('color','blue').hide('slow').show('slow');
+//$("#sub").parent().css('color','blue').hide('slow').show('slow');
+//$("#sub > li:eq(2)").prev().css('color','blue').hide('slow').show('slow');
+//$("#sub > li:eq(2)").siblings().css('color','blue').hide('slow').show('slow');
+//$('a[href="http://google.com"]').css('background','green');
+//$('a[href!="http://google.com"]').css('background','green');
+//$('a[href*="http://google.com"]').css('background','green');
+//$('a[href$="jp"]').css('background','green');
+//$('a[href*="http://google.com"]').css('background','green');
+//$('p').css('color','blue').css('background', 'red');
+//console.log($('p').css('color'));
+//$('p').addClass('myStyle');
+
+  $('img[src=" img/taro.png"]').hide('slow').show('slow');
+  $('img[src=" img/work1.png"]').hide('slow').show('slow');
+  $('img[src=" img/work2.png"]').hide('slow').show('slow');
+  $('img[src=" img/work3.png"]').hide('slow').show('slow');
+});
+</script>
 
 </body>
   </html>
