@@ -103,8 +103,8 @@ $(function(){
 //$('p').css('color','blue').css('background', 'red');
 //console.log($('p').css('color'));
 //$('p').addClass('myStyle');
-  $('img[src=" img/taro.png"]').hide('slow').show('slow').hide('slow').show('slow');
-  $('img[src=" img/work1.png"]').hide('slow').show('slow').hide('slow').show('slow');
+  $('img[src=" img/taro.png"]').hide(1800).show(1800).hide(1000).show(1000);
+  $('img[src=" img/work1.png"]').fadeOut(2000).fadeIn(2000).fadeOut(800).fadeIn(800);
   $('img[src=" img/work2.png"]').hide('slow').show('slow').hide('slow').show('slow');
   $('img[src=" img/work3.png"]').hide('slow').show('slow').hide('slow').show('slow');
 });
